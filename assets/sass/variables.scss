@@ -1,0 +1,22 @@
+$white: #fff;
+$black: #000;
+
+$blue-500: #0097FD;
+$blue-600: #0080EC;
+
+$gray-100: #F3F4F6;
+$gray-300: #B1B7BD;
+$gray-500: #858EA3;
+$gray-600: #4F5668;
+$gray-1000: #08080A;
+
+$border-gray: rgba(133, 142, 162, 0.3);
+
+$border-radius: 12px;
+
+$breakpoints: (
+  'sm':  ( min-width:  480px ),
+  'md':  ( min-width:  767px ),
+  'lg': ( min-width:  992px ),
+  'xl':  ( min-width: 1200px )
+) !default;

@@ -1,0 +1,275 @@
+# Copyright (C) 2021 Webikon (Matej Kravjar)
+# This file is distributed under the GPLv2.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Na splátkyTB 1.0.1-rc3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/na-splatky-tb\n"
+"POT-Creation-Date: 2022-03-01 18:40+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Domain: na-splatky-tb\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;_n;_x;_ex;_nx;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;_n_noop;_nx_noop;translate_nooped_plural;_n:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: dist\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: languages\n"
+"X-Poedit-SearchPathExcluded-4: vendor\n"
+"X-Poedit-SearchPathExcluded-5: .git\n"
+
+#: includes/class-client.php:164
+#, php-format
+msgid "The order total is too low (below %1$s) for purchase through Tatra banka %2$s"
+msgstr ""
+
+#: includes/class-client.php:171
+#, php-format
+msgid "The order total is too high (above %s) for purchase through Tatra banka %2$s"
+msgstr ""
+
+#: includes/class-client.php:180
+#, php-format
+msgid "Please, provide phone number in international format, e.g. %s (spaces are not required)"
+msgstr ""
+
+#: includes/class-frontend.php:65
+#, php-format
+msgid "Compute %s"
+msgstr ""
+
+#: includes/class-frontend.php:162
+#, php-format
+msgid "The value of your purchase is below the minimum value %s."
+msgstr ""
+
+#: includes/class-frontend.php:165
+#, php-format
+msgid "The value of your purchase is above the maximum value %s."
+msgstr ""
+
+#: includes/class-gateway.php:22
+#, php-format
+msgid "Tatra banka %s"
+msgstr ""
+
+#: includes/class-gateway.php:24
+#, php-format
+msgid "Installment based buy via loan from Tatra banka using %s service"
+msgstr ""
+
+#: includes/class-gateway.php:58
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/class-gateway.php:61
+#, php-format
+msgid "Enable %s Payment"
+msgstr ""
+
+#: includes/class-gateway.php:65
+msgid "Title"
+msgstr ""
+
+#: includes/class-gateway.php:67
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/class-gateway.php:71
+msgid "Gateway Description"
+msgstr ""
+
+#: includes/class-gateway.php:73
+msgid "Gateway description when selected during checkout."
+msgstr ""
+
+#: includes/class-gateway.php:77
+msgid "API key"
+msgstr ""
+
+#: includes/class-gateway.php:79
+msgid "Client ID for communication with API."
+msgstr ""
+
+#: includes/class-gateway.php:84
+msgid "Application secret"
+msgstr ""
+
+#: includes/class-gateway.php:86
+msgid "Client secret for communication with API."
+msgstr ""
+
+#: includes/class-gateway.php:90
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/class-gateway.php:92
+msgid "Enable sandbox mode."
+msgstr ""
+
+#: includes/class-gateway.php:96
+msgid "Debug Mode"
+msgstr ""
+
+#: includes/class-gateway.php:98
+msgid "Write extensive information into plugin log."
+msgstr ""
+
+#: includes/class-gateway.php:112
+#, php-format
+msgid "Do you have a technical issue with the plugin? Contact us at %s"
+msgstr ""
+
+#: includes/class-gateway.php:114
+#, php-format
+msgid "Support request for plugin \"%1$s\" at domain \"%2$s\""
+msgstr ""
+
+#: includes/class-gateway.php:134
+msgid "Payment gateway does not support selected currency"
+msgstr ""
+
+#: includes/class-gateway.php:158
+msgid "Unable to proceed with redirect to application"
+msgstr ""
+
+#: includes/class-plugin.php:53
+msgid "Pick one of the options to complete the purchase."
+msgstr ""
+
+#: includes/class-plugin.php:57
+#, php-format
+msgid "Retry payment with Tatra banka %s"
+msgstr ""
+
+#: includes/class-plugin.php:61
+msgid "Select another payment method"
+msgstr ""
+
+#: includes/class-plugin.php:68
+#, php-format
+msgid "It seems, that you did not finish the whole Tatra banka %s process."
+msgstr ""
+
+#: includes/class-plugin.php:72
+msgid "We are now waiting for updates for your loan application status. You should receive any updates via email within 24 hours."
+msgstr ""
+
+#: includes/class-plugin.php:73
+msgid "If you want, you may refresh this page to see any updates now."
+msgstr ""
+
+#: includes/class-plugin.php:74
+msgid "Refresh the page"
+msgstr ""
+
+#: includes/class-plugin.php:78
+msgid "Congratulations, your loan application was approved and order is now paid."
+msgstr ""
+
+#: includes/class-plugin.php:82
+msgid "We are sorry, but the payment method chosen for your order could not be processed."
+msgstr ""
+
+#: includes/class-plugin.php:97
+msgid "The retry payment link has expired. Please go back and refresh the page or try ordering again."
+msgstr ""
+
+#: includes/class-plugin.php:109
+#, php-format
+msgid "The retry payment process has failed for order %s. Please try ordering again."
+msgstr ""
+
+#: includes/class-plugin.php:131
+#, php-format
+msgid "We cannot find any order you purchased via Tatra banka %s, if this is a mistake, please contact us to resolve this issue."
+msgstr ""
+
+#: includes/class-plugin.php:133
+msgid "Return to homepage"
+msgstr ""
+
+#: includes/class-plugin.php:225
+msgid "Settings"
+msgstr ""
+
+#: includes/class-requirements.php:29
+#, php-format
+msgid "Plugin Tatra banka %1$s is enabled but does nothing, because it requires %2$s to work correctly."
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:10
+msgid "Custom installment amount can be configured in loan application after submitting your order."
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:34
+msgid "Pay off quickly"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:37
+msgid "Favorite choice"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:40
+msgid "Low payments"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:52
+#, php-format
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/nasplatky-modal-boxes.php:62
+#, php-format
+msgid "%s / month"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:70
+msgid "Loan amount"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:78
+msgid "Monthly payment"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:86
+msgid "Interest rate"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:94
+msgid "Loan fee"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:104
+msgid "EAPR"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:113
+msgid "Total amount"
+msgstr ""
+
+#: templates/nasplatky-modal-boxes.php:136
+#, php-format
+msgid "Continue via %s"
+msgstr ""
+
+#: templates/nasplatky-modal.php:12
+msgid "Installment settings"
+msgstr ""
+
+#: templates/nasplatky-modal.php:20
+#, php-format
+msgid "Discover all benefits of paying via %s"
+msgstr ""
+
+#: templates/nasplatky-modal.php:28
+msgid "Purchase value"
+msgstr ""
